@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
 import LineChart from './pages/LineChart';
 import BarChart from './pages/BarChart';
