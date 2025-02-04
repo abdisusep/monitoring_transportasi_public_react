@@ -66,14 +66,14 @@ const LineChart = () => {
   };
 
   return (
-    <div className="container mx-auto mt-8">
+    <div className="mx-auto mt-8 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
       {isLoading ? (
         <div className="flex justify-center items-center h-64">
           <div className="spinner-border animate-spin inline-block w-12 h-12 border-4 rounded-full border-t-transparent border-blue-600"></div>
         </div>
       ) : (
         <div>
-          <h1>Chart Lalu Lintas</h1>
+          <h1 className="mb-5 text-2xl font-semibold">Line Chart</h1>
           <Line data={data} options={options} />
         </div>
       )}
